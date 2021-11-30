@@ -24,7 +24,7 @@ function setup() {
     serial.on('data', gotData);
     serial.on('error', gotError);
     serial.on('open', gotOpen);
-    song = createAudio('assets/assets_sounds_bubbles.mp3');
+    song = createAudio('assets/before.mp3');
     song2 = createAudio('assets/easy.mp3');
 
 }
