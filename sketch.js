@@ -1,9 +1,4 @@
-/* 
-This sketch uses a lot of code that was written by Doug Whitton that I'm not entirely sure I understand, 
-but that is necessary in connecting the Arduino to a live browser.
 
-I've added some basic graphics and sounds to the code, the potentionmeter and the light sensor are used to change the colour of the background while the button draws an "explosion" of circles.
-*/
 
 let playing = false;
 let serial;
